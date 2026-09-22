@@ -1,0 +1,15 @@
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Application/bin/Debug/net10.0/CareGuard.Application.deps.json
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Application/bin/Debug/net10.0/CareGuard.Application.dll
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Application/bin/Debug/net10.0/CareGuard.Application.pdb
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Application/obj/Debug/net10.0/CareGuard.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Application/obj/Debug/net10.0/CareGuard.Application.AssemblyInfoInputs.cache
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Application/obj/Debug/net10.0/CareGuard.Application.AssemblyInfo.cs
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Application/obj/Debug/net10.0/CareGuard.Application.csproj.CoreCompileInputs.cache
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Application/obj/Debug/net10.0/CareGuard.Application.dll
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Application/obj/Debug/net10.0/refint/CareGuard.Application.dll
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Application/obj/Debug/net10.0/CareGuard.Application.pdb
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Application/obj/Debug/net10.0/ref/CareGuard.Application.dll
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Application/bin/Debug/net10.0/CareGuard.Domain.dll
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Application/bin/Debug/net10.0/CareGuard.Domain.pdb
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Application/obj/Debug/net10.0/CareGuard.Application.csproj.AssemblyReference.cache
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Application/obj/Debug/net10.0/CareGuar.CAE844E4.Up2Date

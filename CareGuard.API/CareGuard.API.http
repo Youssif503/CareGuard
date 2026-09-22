@@ -1,0 +1,6 @@
+@CareGuard.API_HostAddress = http://localhost:5272
+
+GET {{CareGuard.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,17 @@
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Infrastructure/bin/Debug/net10.0/CareGuard.Infrastructure.deps.json
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Infrastructure/bin/Debug/net10.0/CareGuard.Infrastructure.dll
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Infrastructure/bin/Debug/net10.0/CareGuard.Infrastructure.pdb
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Infrastructure/obj/Debug/net10.0/CareGuard.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Infrastructure/obj/Debug/net10.0/CareGuard.Infrastructure.AssemblyInfoInputs.cache
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Infrastructure/obj/Debug/net10.0/CareGuard.Infrastructure.AssemblyInfo.cs
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Infrastructure/obj/Debug/net10.0/CareGuard.Infrastructure.csproj.CoreCompileInputs.cache
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Infrastructure/obj/Debug/net10.0/CareGuard.Infrastructure.dll
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Infrastructure/obj/Debug/net10.0/refint/CareGuard.Infrastructure.dll
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Infrastructure/obj/Debug/net10.0/CareGuard.Infrastructure.pdb
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Infrastructure/obj/Debug/net10.0/ref/CareGuard.Infrastructure.dll
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Infrastructure/bin/Debug/net10.0/CareGuard.Application.dll
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Infrastructure/bin/Debug/net10.0/CareGuard.Domain.dll
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Infrastructure/bin/Debug/net10.0/CareGuard.Application.pdb
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Infrastructure/bin/Debug/net10.0/CareGuard.Domain.pdb
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Infrastructure/obj/Debug/net10.0/CareGuard.Infrastructure.csproj.AssemblyReference.cache
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Infrastructure/obj/Debug/net10.0/CareGuar.14B16585.Up2Date
