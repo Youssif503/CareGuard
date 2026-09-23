@@ -10,3 +10,4 @@
 /home/youssifsayed/RiderProjects/CareGuard/CareGuard.Domain/obj/Debug/net10.0/CareGuard.Domain.pdb
 /home/youssifsayed/RiderProjects/CareGuard/CareGuard.Domain/obj/Debug/net10.0/ref/CareGuard.Domain.dll
 /home/youssifsayed/RiderProjects/CareGuard/CareGuard.Domain/obj/Debug/net10.0/CareGuard.Domain.csproj.AssemblyReference.cache
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Domain/obj/Debug/net10.0/CareGuard.Domain.sourcelink.json

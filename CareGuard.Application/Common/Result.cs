@@ -1,6 +1,6 @@
 namespace CareGuard.Application.Common;
 
-public class Result<T> : IResult
+public class Result<T> 
 {
     public bool IsSuccess { get; init; }
     public T? Value { get; init; }

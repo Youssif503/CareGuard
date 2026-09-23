@@ -18,10 +18,10 @@ public class Medication
 
     public int Stock { get; set; }
 
-    public int LowStockThreshold { get; set; }
+    public int LowStockThreshold { get; set; } = 5;
 
     public bool IsActive { get; set; } = true;
 
-    public ICollection<MedicationSchedule> Schedules { get; set; }
+    public ICollection<MedicationSchedule>? Schedules { get; set; }
         = new List<MedicationSchedule>();
 }

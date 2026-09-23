@@ -131,9 +131,12 @@ public class AuthenticationService : IAuthenticationService
 
         await _context.SaveChangesAsync();
 
-        return await CreateAuthTokensAsync(
+        var newToken = await CreateAuthTokensAsync(
             storedToken.User,
             userProfile);
+            await _context.SaveChangesAsync();
+
+            return newToken;
     }
     public async Task<bool> RevokeRefreshTokenAsync(
         string refreshToken)

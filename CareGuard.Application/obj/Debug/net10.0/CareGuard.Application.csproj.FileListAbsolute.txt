@@ -13,3 +13,4 @@
 /home/youssifsayed/RiderProjects/CareGuard/CareGuard.Application/bin/Debug/net10.0/CareGuard.Domain.pdb
 /home/youssifsayed/RiderProjects/CareGuard/CareGuard.Application/obj/Debug/net10.0/CareGuard.Application.csproj.AssemblyReference.cache
 /home/youssifsayed/RiderProjects/CareGuard/CareGuard.Application/obj/Debug/net10.0/CareGuar.CAE844E4.Up2Date
+/home/youssifsayed/RiderProjects/CareGuard/CareGuard.Application/obj/Debug/net10.0/CareGuard.Application.sourcelink.json
