@@ -31,7 +31,7 @@ public class AuthenticationService : IAuthenticationService
     public async Task<string> CreateAccessTokenAsync(AppUser user, UserProfile profile)
     {
         var userRoles = await _userManager.GetRolesAsync(user);
-        var roleClaims = userRoles.Select(role => new Claim("role", role));
+        var roleClaims = userRoles.Select(role => new Claim(ClaimTypes.Role, role));
         var claims = new List<Claim>
         {
             new(ClaimTypes.NameIdentifier, user.Id),
@@ -86,9 +86,9 @@ public class AuthenticationService : IAuthenticationService
             ProfileType = userProfile.Type,
             TokenHash = refreshTokenHash,
             CreatedAt = DateTime.UtcNow,
-            ExpiresAt = DateTime.UtcNow.AddDays(
-        RefreshTokenDuration)
+            ExpiresAt = refreshTokenExpiresAt
         };
+        
         await _context.RefreshToken.AddAsync(refreshTokenEntity);
         await _context.SaveChangesAsync();
 
@@ -131,12 +131,9 @@ public class AuthenticationService : IAuthenticationService
 
         await _context.SaveChangesAsync();
 
-        var newToken = await CreateAuthTokensAsync(
+        return await CreateAuthTokensAsync(
             storedToken.User,
             userProfile);
-            await _context.SaveChangesAsync();
-
-            return newToken;
     }
     public async Task<bool> RevokeRefreshTokenAsync(
         string refreshToken)
@@ -208,7 +205,7 @@ public class AuthenticationService : IAuthenticationService
             return new UserProfile
             {
                 Id = caregiver.Id,
-                Name = string.Concat(caregiver.FirstName, " ", caregiver.LastName),
+                Name = caregiver.FullName,
                 Type = ProfileType.CareGiver
             };
         }
@@ -224,7 +221,7 @@ public class AuthenticationService : IAuthenticationService
             return new UserProfile
             {
                 Id = elder.Id,
-                Name = string.Concat(elder.FirstName, " ", elder.LastName),
+                Name = elder.FullName,
                 Type = ProfileType.Elder
             };
         }

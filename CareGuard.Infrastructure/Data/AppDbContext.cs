@@ -4,6 +4,7 @@ using CareGuard.Domain.Models.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 namespace CareGuard.Infrastructure.Data;
 
 public class AppDbContext:IdentityDbContext<AppUser> , IAppDbContext
@@ -21,7 +22,7 @@ public class AppDbContext:IdentityDbContext<AppUser> , IAppDbContext
     public DbSet<Medication> Medication { get; set; }
     public DbSet<MedicationSchedule> MedicationSchedule { get; set; }
     public DbSet<MedicationScheduleDose> MedicationScheduleDose { get; set; }
-    
+
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);

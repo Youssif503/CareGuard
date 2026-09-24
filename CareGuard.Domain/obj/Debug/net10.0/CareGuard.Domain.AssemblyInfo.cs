@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CareGuard.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1e00230989bc82d4751428e8eaf3414d7f6f626")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7def1331775c3dfe64c45a9b9a43d3c6a89b5b13")]
 [assembly: System.Reflection.AssemblyProductAttribute("CareGuard.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CareGuard.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

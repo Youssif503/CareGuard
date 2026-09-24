@@ -13,7 +13,8 @@ COPY . .
 
 WORKDIR /app/CareGuard.API
 
-RUN dotnet publish "CareGuard.API.csproj" -c Release -o /app/output
+RUN dotnet publish "CareGuard.API.csproj" -c Release -o /app/output 
+
 
 FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
 

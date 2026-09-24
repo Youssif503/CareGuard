@@ -4,7 +4,7 @@ public class Result<T>
 {
     public bool IsSuccess { get; init; }
     public T? Value { get; init; }
-    public List<string> Errors { get; init; } = [];
+    public List<string> Errors { get; init; } = new List<string>();
 
     public static Result<T> Success(T value)
     {

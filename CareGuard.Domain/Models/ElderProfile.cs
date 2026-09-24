@@ -7,14 +7,13 @@ public class ElderProfile
     public string Id { get; set; }
 
     public string UserId { get; set; } = null!;
+    public string? PhoneNumber {get;set;}
 
-    public AppUser User { get; set; } = null!;
+    public AppUser? User { get; set; } = null!;
 
-    public string FirstName { get; set; } = null!;
+    public string FullName { get; set; } = null!;
 
-    public string LastName { get; set; } = null!;
-
-    public DateOnly DateOfBirth { get; set; }
+    public DateOnly? DateOfBirth { get; set; }
 
     public string? Address { get; set; }
 
